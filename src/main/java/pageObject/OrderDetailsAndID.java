@@ -21,7 +21,7 @@ public class OrderDetailsAndID extends AbstractComponant{
 	
 	@FindBy(css=".hero-primary")
 	WebElement getOrderID;
-	
+	//Mohit Kamuni
 	public String collectOrderDetails()
 	{
 		By orderId=By.cssSelector(".hero-primary");

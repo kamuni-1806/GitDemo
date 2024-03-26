@@ -19,8 +19,6 @@ public class CartPage extends AbstractComponant {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-//	List<WebElement> listItem=driver.findElements(By.cssSelector(".cartSection h3"));
-//	Boolean match =listItem.stream().anyMatch((productItems)-> productItems.getText().equalsIgnoreCase("ZARA COAT 3"));
 	@FindBy(css=".cartSection h3")
 	List<WebElement> cartItems;
 	
