@@ -36,8 +36,6 @@ public class CartPage extends AbstractComponant {
 		waitElementToAppear(totalRowsSelect);
 		Thread.sleep(3000);
 		Submit.click();
-//		CheckOutPage checkoutpage=new CheckOutPage(driver);
-//		return checkoutpage;
 	}
 
 }

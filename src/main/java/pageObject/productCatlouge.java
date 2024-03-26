@@ -54,11 +54,8 @@ public class productCatlouge extends AbstractComponant {
 	public void addProductToCart()
 	{
 		By ToastXpath=By.xpath("//*[@id=\\\"toast-container\\");
-//		waitElementToAppear(ToastXpath);
 		By animationWaitCss=By.cssSelector(".ng-animating");
 		waitElementToDisappear(animationWaitCss);
-//		CartPage cartPage=new CartPage(driver);
-//		return cartPage;
 	}
 
 	

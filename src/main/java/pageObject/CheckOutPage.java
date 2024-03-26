@@ -22,12 +22,9 @@ public class CheckOutPage extends AbstractComponant{
 	
 	@FindBy(css="[placeholder='Select Country']")
 	WebElement seletCountry;
-	
-//	driver.findElement(By.cssSelector(".action__submit")).click();
 	@FindBy(css=".action__submit")
 	WebElement actionSubmit;
 	
-	////button[contains(@class,'ta-item')])[2]
 	@FindBy(css="button[contains(@class,'ta-item')])[2]")
 	WebElement selectSpecificCountry;
 	
@@ -38,7 +35,6 @@ public class CheckOutPage extends AbstractComponant{
 		By dropdownBy=By.cssSelector("\".ta-results\"");
 		waitElementToAppear(dropdownBy);
 		selectSpecificCountry.click();
-			
 	}
 	
 	public void submitOrder()
